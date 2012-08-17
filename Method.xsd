@@ -67,7 +67,8 @@
 						<xs:enumeration value="58" /> <!-- SMS 3 GET /rest/3/sms/messaging/outbox/{Id} -->
 						<xs:enumeration value="59" /> <!-- SPEECH 1 POST /rest/1/SpeechToText -->
 						<xs:enumeration value="60" /> <!-- WAP 1 POST /1/messages/outbox/wapPush -->
-					</xs:restriction>
+
+GET /rest/1/ads -->                                  <xs:enumeration value="61" /> <!-- Advertisement 1				
 				</xs:simpleType>
 			</xs:element>
 		</xs:sequence>
